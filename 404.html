@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL='./index.html'" />
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // 현재 경로를 유지하면서 index.html로 리디렉션
+      var pathname = window.location.pathname;
+      window.location.replace(window.location.origin + '/' + pathname);
+    </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>
