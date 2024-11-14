@@ -1,0 +1,1 @@
+import{r as n,c as u,a as t,o as a,u as l}from"./index.js";const i={__name:"HomeView",setup(m){const o=l();n("홈페이지에 오신 것을 환영합니다!");function s(r){o.push("/gameResult")}return(r,e)=>(a(),u("div",null,[e[0]||(e[0]=t("h1",null,"홈페이지",-1)),e[1]||(e[1]=t("p",null,"여기는 홈페이지 내용입니다.",-1)),t("button",{class:"btn-primary",onClick:s},"회차별 당첨번호 보기")]))}};export{i as default};
