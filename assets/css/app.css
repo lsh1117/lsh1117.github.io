@@ -675,14 +675,14 @@ button:disabled {
 .page-wrapper {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 .page-wrapper > * {
-  height: 100vh;
+  height: 100%;
   padding: 3rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -741,7 +741,7 @@ body[data-color-mode=dark] .page-wrapper .container .header-section .page-descri
 .divider-wrapper {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   -webkit-box-sizing: border-box;
@@ -869,7 +869,7 @@ body[data-color-mode=dark] .page-wrapper .container .header-section .page-descri
 @media (max-width: 768px) {
   .main-area {
     top: 80px;
-    height: 100vh;
+    height: 100%;
   }
   .page-wrapper > * {
     padding: 1.5rem;
@@ -2287,7 +2287,7 @@ body[data-color-mode=dark] .ui-list_type_bullet > li::before {
 }
 .HomeView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #0945c9;
   width: 100%;
   display: -webkit-box;
@@ -2319,7 +2319,7 @@ body[data-color-mode=dark] .ui-list_type_bullet > li::before {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 .HomeView .hero-container .main-text {
@@ -2425,7 +2425,7 @@ body[data-color-mode=dark] .HomeView .hero-container .main-text .top-text {
 
 .ContentsView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url("../images/contents/img_contents_01.png");
   background-size: cover;
@@ -2517,7 +2517,7 @@ body[data-color-mode=dark] .HomeView .hero-container .main-text .top-text {
 
 .ServicesView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url("../images/service/bg_service.png");
   background-size: cover;
@@ -2773,7 +2773,7 @@ body[data-color-mode=dark] .ServicesView .service-column .service-description {
 
 .PortfolioView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #ffffff;
   width: 100%;
 }
@@ -2956,7 +2956,7 @@ body[data-color-mode=dark] .PortfolioView .project-card .project-content-wrapper
 
 .ProcessView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #000000;
   width: 100%;
 }
@@ -3103,7 +3103,7 @@ body[data-color-mode=dark] .PortfolioView .project-card .project-content-wrapper
 
 .ContactView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #000000;
   width: 100%;
 }
@@ -3975,7 +3975,7 @@ body[data-color-mode=dark] .ReferenceView .right-section .reference-list .refere
 
 .OrganizationView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   padding: 3rem;
   background: #0945c9;
   width: 100%;
@@ -4310,7 +4310,7 @@ body[data-color-mode=dark] .OrganizationView .org-node.sub-department-node .node
 
 .FaqView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #ffffff;
   width: 100%;
 }
@@ -4560,7 +4560,7 @@ body[data-color-mode=dark] .FaqView .faq-item .faq-answer .answer-content ul, bo
 
 .ContactView {
   position: relative;
-  height: 100vh;
+  height: 100%;
   background: #000000;
   width: 100%;
 }
@@ -4832,7 +4832,7 @@ body[data-color-mode=dark] .ContactView .right-section .address-info .address-te
 .DividerView {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -4844,7 +4844,7 @@ body[data-color-mode=dark] .ContactView .right-section .address-info .address-te
   top: 100%;
   left: 50%;
   width: 200vw;
-  height: 100vh;
+  height: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transform-origin: center center;
