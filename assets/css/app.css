@@ -756,7 +756,7 @@ body[data-color-mode=dark] .page-wrapper .container .header-section .page-descri
 
 .scroll-indicator {
   position: fixed;
-  right: 2rem;
+  right: 1rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
