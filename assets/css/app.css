@@ -2392,7 +2392,7 @@ body[data-color-mode=dark] .HomeView .hero-container .main-text .top-text {
   gap: 1.5rem;
 }
 .HomeView .hero-container .logo-section .logo-wrapper .logo-icon > img {
-  width: 20rem;
+  width: 15rem;
   height: auto;
 }
 @media (max-width: 768px) {
@@ -2421,6 +2421,10 @@ body[data-color-mode=dark] .HomeView .hero-container .main-text .top-text {
         -ms-flex-align: center;
             align-items: center;
     gap: 1rem;
+  }
+  .HomeView .hero-container .logo-section .logo-wrapper .logo-icon > img {
+    width: 12rem;
+    height: auto;
   }
 }
 
@@ -2778,6 +2782,9 @@ body[data-color-mode=dark] .ServicesView .service-column .service-description {
   background: #ffffff;
   width: 100%;
 }
+.PortfolioView .header-section {
+  height: 66px !important;
+}
 .PortfolioView .page-title {
   color: rgb(2, 2, 2) !important;
 }
@@ -2919,20 +2926,13 @@ body[data-color-mode=dark] .PortfolioView .project-card .project-content-wrapper
   white-space: nowrap;
   border-width: 0;
 }
-@media (max-width: 1024px) {
-  .PortfolioView .portfolio-swiper :deep(.swiper-button-next),
-  .PortfolioView .portfolio-swiper :deep(.swiper-button-prev) {
-    width: 36px;
-    height: 36px;
-  }
-  .PortfolioView .portfolio-swiper :deep(.swiper-button-next):after,
-  .PortfolioView .portfolio-swiper :deep(.swiper-button-prev):after {
-    font-size: 14px;
-  }
-}
 @media (max-width: 768px) {
   .PortfolioView .container {
     padding: 0 2rem;
+  }
+  .PortfolioView .header-section {
+    margin-bottom: 2rem !important;
+    height: 56px !important;
   }
   .PortfolioView .portfolio-swiper {
     padding-bottom: 2.5rem;
