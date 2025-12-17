@@ -884,7 +884,8 @@ body[data-color-mode=dark] .page-wrapper .container .header-section .page-descri
     margin-bottom: 4rem;
   }
   .scroll-indicator {
-    right: 1rem;
+    right: 0.5rem !important;
+    top: 50%;
   }
   .scroll-indicator .mouse-icon {
     width: 20px;
