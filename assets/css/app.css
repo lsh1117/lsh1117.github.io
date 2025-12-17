@@ -2372,6 +2372,7 @@ body[data-color-mode=dark] .HomeView .hero-container .main-text .top-text {
   margin: 0;
   line-height: 1.2;
   letter-spacing: -0.01em;
+  margin-bottom: 25rem !important;
 }
 .HomeView .hero-container .logo-section {
   width: 100%;
