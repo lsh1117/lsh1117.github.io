@@ -3344,6 +3344,7 @@ body[data-color-mode=dark] .ContactView .right-section .address-info .address-te
     color: rgb(22, 22, 22);
   }
   .ContactView .left-section .image-wrap {
+    display: none;
     min-height: 180px;
     max-height: 220px;
   }
@@ -4801,6 +4802,7 @@ body[data-color-mode=dark] .ContactView .right-section .address-info .address-te
     color: rgb(22, 22, 22);
   }
   .ContactView .left-section .image-wrap {
+    display: none;
     min-height: 180px;
     max-height: 220px;
   }
